@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">convertis</string>
+    <string name="conversor_d">Conversor de Unidades</string>
+    <string name="moeda">Moeda</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="comprimento">Comprimento</string>
+    <string name="porcentagem">Porcentagem</string>
+    <string name="massa">Massa</string>
+    <string name="medidas">Medidas</string>
+    <string name="distancia">distancia</string>
+</resources>
