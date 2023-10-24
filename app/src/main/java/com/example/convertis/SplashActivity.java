@@ -20,7 +20,6 @@ public class SplashActivity extends AppCompatActivity {
 
         Glide.with(this)
                 .load(R.drawable.convertix) // aqui é teu gif
-                .asGif()
                 .into(meuImageView);
 
         Handler handler = new Handler();

@@ -36,5 +36,113 @@
         android:text="@string/moeda"
         android:textAppearance="@style/moeda" />
 
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
+        android:layout_alignStart="@+id/view"
+        android:layout_alignTop="@+id/view"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/opcaolista" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="343dp"
+        android:layout_height="396dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/rectangle_moeda"
+        android:elevation="5dp" />
+
+    <View
+        android:id="@+id/rectangle_"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
+        android:layout_below="@+id/rectangle_1"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="83dp"
+        android:background="@drawable/opcaolista" />
+
+    <Spinner
+        android:id="@+id/spn1"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/rectangle_1"
+        android:layout_alignTop="@+id/rectangle_1"
+        android:layout_alignEnd="@+id/rectangle_1"
+        android:layout_alignBottom="@+id/rectangle_1"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="-8dp"
+        android:layout_marginBottom="-2dp"
+        android:spinnerMode="dialog"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="32dp"
+        android:layout_toEndOf="@+id/rectangle_1"
+        android:background="@drawable/opcao_input"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Spinner
+        android:id="@+id/spn2"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/rectangle_"
+        android:layout_alignTop="@+id/rectangle_"
+        android:layout_alignEnd="@+id/rectangle_"
+        android:layout_alignBottom="@+id/rectangle_"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="3dp"
+        android:spinnerMode="dialog"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt1"
+        android:layout_alignEnd="@+id/view"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="27dp"
+        android:layout_toEndOf="@+id/rectangle_"
+        android:background="@drawable/opcao_input"
+        android:ems="10"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="116dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/view"
+        android:layout_alignTop="@+id/view"
+        android:layout_alignEnd="@+id/view"
+        android:layout_alignBottom="@+id/view"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="323dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/butao_converter"
+        android:text="@string/converter" />
+
 
 </RelativeLayout>
