@@ -8,4 +8,6 @@
     <string name="massa">Massa</string>
     <string name="medidas">Medidas</string>
     <string name="distancia">distancia</string>
+    <string name="idade">Idade</string>
+    <string name="storage">Tamanho de Dados</string>
 </resources>
